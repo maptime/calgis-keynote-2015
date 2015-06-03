@@ -11,6 +11,11 @@
   .mindblown {
     background-image: url(./images/mindblown.gif);
   }
+  .hwy {
+    background-image: url(./images/cat-hwy.gif);
+    background-repeat: no-repeat;
+    background-position: center 40px;
+  }
   .cactus {
     background-image: url(./images/cactus.jpg);
     background-repeat: no-repeat;
@@ -24,6 +29,9 @@
     background-size: 100%;
   }
 
+  .pushinbuttons {
+    background-image: url(images/pushinbuttons.gif);
+  }
 
 </style>
 <script src='big.js'></script>
@@ -82,7 +90,7 @@
 <div>But unfortunately...</div>
 <div style="color: white; bgcolor: black"><img src="images/rainbow-gray.png">Open Source is also awful!*</div>
 <div>(*sometimes)</div>
-<div>Made by technologists for technologists</div>
+<div data-bodyclass='pushinbuttons'>Made by technologists for technologists</div>
 <div>A community culture that is:</div>
 <div>unwelcoming</div>
 <div>competitive</div>
@@ -91,7 +99,7 @@
 <div>Writing and learning Open Source takes a lot of privilege.</div>
 <div>It's a utopia! ...but mainly for white dudes</div>
 <div>Maptime is fighting for the soul of open source.</div>
-<div>OpenStreetMap: case in point</div>
+<div><img src="images/openstreetmap-sf.png">OpenStreetMap: case in point</div>
 <div><img src="images/sf_cityhall_editing_josm_pale.png">It can be complicated <!--...but getting better! We believe you shouldn't have to be an expert to contribute. It's supposed to be the map that _anyone_ can edit!--></div>
 <div style="color: white"><img src="images/flames.jpg">It can be unfriendly <!--The community has some great people, but it can also be very unfriendly. There are constant flamewars on the mailing list, and if a newbie asks a simple question or makes a mistake when they start out, old-timers will jump all over them. That's not cool. It shouldn't be that way.--></div>
 <div><img src="images/osm-berlin.png">Detail and quality: amazing!</div>
@@ -103,7 +111,7 @@
 <div>In the US, the GIS workforce is 46% female. Worldwide it's 37%.<!--According to a recent survey. Not great, but it could be much worse. http://www.gislounge.com/gender-gis-workforce/--></div>
 <div>OSM: 3% female</div>
 <div>Open Source: 1% <!--http://www.slideshare.net/apw217/changing-the-ratio--></div>
-<div><img src="images/osm-101-maptimeber.jpg">OSM 101<!--Hence why we have lessons like OSM 101 (include image of OSM 101 projected)--></div>
+<div><img src="images/osm-101-maptimeber-cropped.jpg">OSM 101<!--Hence why we have lessons like OSM 101 (include image of OSM 101 projected)--></div>
 <div>@MaptimePR<img src="images/osm-101-maptimepr.png"></div>
 <div>@MaptimeOSL<img src="images/osm-101-maptimeosl.png"></div>
 <div>&nbsp;<img src="images/osm-contrib-1.png">&nbsp;<!--(Include tweets of people making their first OSM edit at maptime)--></div>
@@ -174,7 +182,7 @@ This is something that Lyzi has spoken to, and Alan has/will speak to, but in te
 <div>Maptime is an excellent <em>on ramp</em> into the world of <strong>maps</strong>.</div> 
 <div>We've made this <strong>technology</strong> <em>easier to grasp</em>.</div>
 <div>But <em>where do people go</em> once they get on the highway?</div>
-<div>[Highway image]</div>
+<div data-bodyclass='hwy'></div>
 <div>Learning any craft takes <em>time, practice, focus,</em> and <strong>independent study</strong>.</div>
 <div>At Maptime people get to play with tools and learn concepts among <strong>peers</strong>.</div>
 <div>Some people, before they know it, have gone from <strong>beginner</strong> to <em>teacher</em>.</div>
@@ -187,8 +195,8 @@ This is something that Lyzi has spoken to, and Alan has/will speak to, but in te
 <div>Being an adult is great! But our brains have lost <strong>neuroplasticity</strong>.</div>
 <div><img src="images/old-dog-1.jpg"></div>
 <div><img src="images/old-dog.jpg"></div>
-<div>Learning new things takes<strong>more time</strong> than it did when we were younger.</div>
-<div>Picking up <strong>new technology</strong> can be <em>daunting</em>.</div>
+<div>Learning new things <strong>just takes more time</strong> than it did when we were younger.</div>
+<div>Still, picking up <strong>new technology</strong> can be <em>daunting</em>.</div>
 <div>It's also hard to <em>really devote time</em> to learning a new skill in your off hours.</div>
 <div>It can also be hard for a group of <em>volunteers</em> to offer even more time to help.</div>
 <div>I would love to see a more <strong>sustainable solution</strong> to in-depth OS GIS education.</div>
@@ -196,18 +204,19 @@ This is something that Lyzi has spoken to, and Alan has/will speak to, but in te
 <div>What if <em>OS geo tools</em> were integrated into <strong>GIS certifications</strong>?</div>
 <div>What if you could learn <em>spatial analysis</em> through <strong>QGIS</strong> <i>and</i> <strong>ArcGIS?</strong></div>
 <div>What if <em>coding</em> and <em>design</em> principles were taught alongside <strong>cartographic</strong> <i>and</i> ones?</div>
-<div>What if there was a <em>code school</em> focused on OS Geo?</div>
-
+<div>What if there was a <em>code school</em> focused on OS Geo?</div> 
+<div data-bodyclass='mindblown'></div>
 <div>These are, admittedly, <em>big questions</em>.</div>
 <div>I bet <strong>I'm not the only one</strong> asking them.</div>
 <div>When I think about the future of geo education, and the path to get there, these are the ones I'm asking.</div>
 <div>They are ones that make me think about the current <strong>education revolution</strong>.</div>
 <div>They make me think about the <em>future of academia</em>.</div>
-<div data-bodyclass='mindblown'></div>
 <div>#daunting</div>
 <div>Managing Maptime is like <strong>moving pebbles</strong>.</div>
 <div>Changing academia is like <strong>moving a boulder</strong>.</div>
 <div><strong>Pebbles</strong> come with their own challenges, but <em>boulders</em> are tough.</div>
+
+
 <div>LYZI + CONCLUSION</div>
 <div><em>Maptime</em> is for <strong>all of us</strong>.</div>
 <div>Think about the last time you talked to a coworker, explaining to her <em>what</em> you do and <em>how</em> you do it.</div>
